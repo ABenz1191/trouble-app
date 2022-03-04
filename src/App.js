@@ -14,6 +14,7 @@ export default function App() {
         <a href="https://github.com/ABenz1191/React-Dictionary-Project.git">
           github
         </a>
+        <a href="https://heuristic-noyce-4e0c7a.netlify.app">netlify</a>
       </div>
     </div>
   );
