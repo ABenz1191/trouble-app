@@ -1,1 +1,169 @@
+body {
+  background-color: #dbc18e;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #517891;
+}
 
+.searchSection {
+  box-shadow: 5px 5px 10px #031f40;
+}
+.resultsSection {
+  box-shadow: 5px 5px 5px #031f40;
+}
+.meaningSection {
+  box-shadow: 5px 5px 5px #031f40;
+}
+.synonymSection {
+  box-shadow: 5px 5px 5px #031f40;
+}
+.photosSection {
+  box-shadow: 5px 5px 5px #031f40;
+}
+.headerSpace {
+  display: inline-block;
+  border-bottom: 15px solid #44677d;
+  box-shadow: 5px 7px 10px #031f40;
+  margin-bottom: 0px;
+  background: rgb(7, 20, 55);
+  background: -moz-linear-gradient(
+    309deg,
+    rgba(7, 20, 55, 1) 31%,
+    rgba(138, 139, 128, 1) 70%,
+    rgba(253, 240, 211, 1) 90%
+  );
+  background: -webkit-linear-gradient(
+    309deg,
+    rgba(7, 20, 55, 1) 31%,
+    rgba(138, 139, 128, 1) 70%,
+    rgba(253, 240, 211, 1) 90%
+  );
+  background: linear-gradient(
+    309deg,
+    rgba(7, 20, 55, 1) 31%,
+    rgba(138, 139, 128, 1) 70%,
+    rgba(253, 240, 211, 1) 90%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#071437",endColorstr="#fdf0d3",GradientType=1);
+}
+.headerImage {
+  width: 150px;
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+.appHeader {
+  font-family: adler;
+  color: #60a1e5;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+.form-control {
+  border-radius: 10px;
+  border: 10px solid #b2834d;
+}
+.searchButton {
+  border-radius: 10px;
+  background-color: #60a1e5;
+}
+.suggestions {
+  color: #60a1e5;
+}
+h2 {
+  color: #44677d;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+.searchSection {
+  max-width: 1000px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 40px;
+  background-color: #eff2f1;
+  color: #071437;
+  margin-top: 50px;
+  text-align: center;
+}
+.resultsSection {
+  max-width: 1000px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 40px;
+  background-color: #eff2f1;
+}
+.meaningSection {
+  max-width: 1000px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 40px;
+  background-color: #eff2f1;
+}
+.photosSection {
+  max-width: 1000px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 80px;
+  background-color: #eff2f1;
+}
+.synonymSection {
+  max-width: 1000px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 40px;
+  background-color: #eff2f1;
+}
+.icon {
+  color: #dbc18e;
+  font-weight: bolder;
+}
+.wordResult {
+  color: #60a1e5;
+  font-family: adler;
+  font-size: 66px;
+  text-align: left;
+}
+.phoneticsOrder {
+  display: inline-block;
+  text-align: left;
+}
+.phoneticsList {
+  text-align: center;
+}
+.Phonetic {
+  text-align: center;
+  margin: 0 auto;
+}
+.partSpeech {
+  color: #b2834d;
+  font-weight: bolder;
+}
+.synonymLabel {
+  color: #60a1e5;
+  font-weight: bold;
+}
+.definitionLabel {
+  color: #60a1e5;
+  font-weight: bold;
+}
+.photoGrid {
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer {
+  background-color: #44677d;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 2px solid #071437;
+  color: #eff2f1;
+  font-weight: bold;
+}
+.footerText {
+  margin-left: 20px;
+}
+a {
+  color: #b2834d;
+  font-weight: bold;
+}
